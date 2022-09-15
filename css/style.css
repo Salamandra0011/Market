@@ -1,0 +1,27 @@
+body {
+    background: url('images/bg1.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.circleImage {
+    margin-top: 110px;
+    margin-left: 320px;
+}
+.NameC {
+    margin-top: 200px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 112px;
+    margin-left: 58px;
+
+}
+.circleImage1 {
+    margin-top: 150px;
+    margin-left: 600px;
+}
+.circleImage2 {
+    margin-top: 300px;
+    margin-left: 200px;
+}
