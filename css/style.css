@@ -2,6 +2,23 @@ body {
     background-image: url(../images/bg1.svg);
     background-size: cover;
 }
+.modal {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #3C4529;
+    text-align: center;
+}
+.form-control {
+    background: #FFD689;
+    opacity: 0.4;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-warning {
+    background: #D79E4B;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 h2 {
     color: #3C4529;
     font-weight: 900;
@@ -73,8 +90,8 @@ h2 > span {
     border-radius: 40px;
 }
 .button-buy:hover {
-    color: #FFD689;
-    background-color: #3C4529;
+    color: #D79E4B;
+    background-color: antiquewhite;
 }
 
 .nav-link {

@@ -16,6 +16,31 @@
 </head>
 
 <body class="container">
+
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Ваше имя</label>
+                        <input type="text" required class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputNumber1" class="form-label">Контактный телефон</label>
+                        <input type="tel" required class="form-control" id="exampleInputNumber1">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                <button type="submit" class="btn btn-warning">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <header class="my-5 container" id="header">
     <nav class="row navbar fixed-top navbar-expand-md mx-5">
         <div class="container flex-row">
@@ -59,7 +84,7 @@
         <div class="col-7">
             <div class="text-head position-relative">
                 <h1 class="NameC">Название</h1>
-                <button class="button-buy ms-3" href="#">Купить</button>
+                <button class="button-buy ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal"  href="#">Купить</button>
                 <p class="text-preview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                     sit amet </p>
             </div>
@@ -185,6 +210,7 @@
     </p>
 
 </section>
+
 
 <!--Footer-->
 <footer class="footer">
